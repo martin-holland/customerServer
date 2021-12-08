@@ -170,4 +170,10 @@ input {
     z-index: -1;
     opacity: 60%;
   }
+
+  .onecustomer {
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+  }
 }
