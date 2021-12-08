@@ -1,0 +1,8 @@
+{
+    "port": 3000,
+    "host": "localhost",
+    "storage": {
+        "storageFolder": "jsonStorage",
+        "dataLayer": "dataStorageLayer.js"
+    }
+}

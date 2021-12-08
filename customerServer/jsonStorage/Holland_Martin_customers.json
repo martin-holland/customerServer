@@ -1,0 +1,58 @@
+[
+    {
+        "customerId": 4123,
+        "firstname": "Abel",
+        "lastname": "Irony",
+        "address": "Station 5",
+        "favouriteIcecream": "raspberry"
+    },
+    {
+        "customerId": 3000,
+        "firstname": "Paula",
+        "lastname": "River",
+        "address": "River side 2",
+        "favouriteIcecream": "vanilla"
+    },
+    {
+        "customerId": 2000,
+        "firstname": "Layla",
+        "lastname": "Garcia",
+        "address": "Codepath 2",
+        "favouriteIcecream": "blueberry"
+    },
+    {
+        "customerId": 7987,
+        "firstname": "Matt",
+        "lastname": "Smith",
+        "address": "Cloudhill 3",
+        "favouriteIcecream": "chocolate"
+    },
+    {
+        "customerId": 5000,
+        "firstname": "Sophie",
+        "lastname": "Bell",
+        "address": "Bugpath 42",
+        "favouriteIcecream": "toffee"
+    },
+    {
+        "customerId": 6543,
+        "firstname": "Jeff",
+        "lastname": "Hammer",
+        "address": "Dataway 35",
+        "favouriteIcecream": "strawberry"
+    },
+    {
+        "customerId": 1000,
+        "firstname": "Olivia",
+        "lastname": "Lake",
+        "address": "Street 20",
+        "favouriteIcecream": "caramel"
+    },
+    {
+        "customerId": 9999,
+        "firstname": "Adele",
+        "lastname": "Jones",
+        "address": "5 Forest Walk",
+        "favouriteIcecream": "Pistachio"
+    }
+]

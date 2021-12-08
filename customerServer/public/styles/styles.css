@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --buttons-main: #cc932a;
+  --buttons-text: #644444;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  height: auto;
+  width: 100vw;
+}
+
+span {
+  padding: 20px;
+  font-size: 0.75rem;
+}
+
+.background {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  width: 100vw;
+  background: url("../background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120vw;
+  position: absolute;
+  z-index: -1;
+  opacity: 60%;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  width: 15rem;
+  background-color: var(--buttons-main);
+  color: black;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+h1 {
+  color: black;
+  font-size: 3rem;
+  -webkit-text-stroke: 0.01px white;
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+main button,
+form button {
+  font-family: "Poppins", sans-serif;
+  width: 15rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+input[readonly] {
+  background-color: gray;
+}
+
+.allcustomers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+thead {
+  background-color: #cc932a;
+}
+
+table,
+td {
+  border: solid black 1px;
+  padding: 0.5rem;
+  background-color: #dcab57af;
+}
+
+th {
+  border: solid black 1px;
+  padding: 0.5rem;
+}
+
+.onecustomer {
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dcab57af;
+  width: 50vw;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.customerdata {
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dcab57af;
+}
+
+.inputform {
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dcab57af;
+  width: 50vw;
+}
+
+.error {
+  display: flex;
+  background-color: #ffc0cb;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: red solid 2px;
+}
+
+.info {
+  display: flex;
+  background-color: rgb(130, 174, 130);
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: green solid 2px;
+}
