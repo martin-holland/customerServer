@@ -54,5 +54,12 @@
         "lastname": "Jones",
         "address": "5 Forest Walk",
         "favouriteIcecream": "Pistachio"
+    },
+    {
+        "customerId": 5555,
+        "firstname": "Paul",
+        "lastname": "Smith",
+        "address": "5 River Close",
+        "favouriteIcecream": "Forest Fruits"
     }
 ]
