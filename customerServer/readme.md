@@ -17,6 +17,14 @@ Built with:
 
 ## Setup and usage
 
+Project is standalone, so you can just type into a command line prompt assuming you have NodeJS installed.
+
+This application runs on a default port of 3000, if this is in use please change the port in the serverConfig.json
+
+```shell
+node index.js
+```
+
 - The id can be anything from 0 to 99999.
 
 ## Screenshots
